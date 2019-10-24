@@ -1,0 +1,11 @@
+make_user(
+    'Sophie',     # name
+    [                   # reviews
+        make_review('La Val\'s Pizza', 4.0),
+        make_review('La Burrita', 5.0),
+        make_review('Free Speech Movement Cafe', 5.0),
+        make_review('Golden Bear Cafe', 2.0),
+        make_review('Peets Coffee & Tea', 5.0),
+        make_review('Chipotle Mexican Grill', 5.0),
+    ]
+)
